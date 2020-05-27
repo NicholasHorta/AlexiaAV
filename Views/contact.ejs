@@ -1,0 +1,30 @@
+<%- include('partials/header.ejs') %>
+
+<!-- CV Upload Form Start -->
+<div id='contact-form-container'>
+    <h3 id='form-title'>Contact Form</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias corporis velit, beatae deserunt sit ex quibusdam
+        magnam cumque numquam perferendis cupiditate excepturi corrupti totam. Eveniet vel molestias iure corporis esse
+        animi voluptatum facere, illo tempore ducimus at optio alias quo, quae aperiam voluptates iste perferendis.
+        Praesentium libero ipsum delectus ex?</p>
+    <form class='form-box' method='POST' enctype='multipart/form-data' action="/contact">
+        <input type='text' name='name' placeholder="Name" class='input-field' required>
+        <input type='text' name='lastname' placeholder="Last Name" class='input-field' required>
+        <input type='tel' name='number' placeholder="Contact Number" class='input-field' required>
+        <input type='email' name='email' placeholder="Email" class='input-field' required>
+        <select name='dept' class='input-field' required>
+            <option value=''>Department of interest</option>
+            <option value='Installation'>Installation</option>
+            <option value='Commissioning'>Commissioning</option>
+            <option value='Programming'>Programming</option>
+            <option value='Events'>Events</option>
+        </select>
+        <textarea name='comment' placeholder="Additional Information"></textarea>
+        <label>Upload CV</label>
+        <input type='file' name='referenceName'>
+        <button class='btn btn-primary'>Submit</button>
+    </form>
+</div>
+<!-- CV Upload Form End -->
+
+<%- include('partials/footer.ejs') %>
