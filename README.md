@@ -21,3 +21,5 @@ As this was my first solo build of a project without any guidance, it was quite 
 
 Along with this, I was also able to dive deeper into CSS which gave me the opportunity to not only work with styling different elements but working with them in a responsive way. I would say that my main achievement here was processing my Responsive Web Design capabilities.
 
+## Please note that the site is only visual, as GitHub does not allow me to host the page with full functionality
+https://nicholashorta.github.io/profile/gallery.html
